@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>MHELROSE PASTRANA |  My Portfolio</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<style>
+body{
+  background: linear-gradient(135deg,#1a001a,#330033,#1a001a); /* Dark purple background */
+  color: #ff69b4; /* Neon pink base text */
+  font-family:'Segoe UI',sans-serif;
+}
+
+/* NAVBAR */
+.navbar{
+  background: #0d001a !important;
+  border-bottom: 1px solid  #ff69b4;
+}
+
+/* HEADER HERO */
+header{
+  background: transparent;
+  padding: 80px 20px;
+  text-align: center;
+}
+
+header h1{
+  font-size: 55px;
+  font-weight: 800;
+}
+
+header p{
+  color:  #ff69b4;
+}
+
+.glow{
+  color:  #ff69b4;
+  text-shadow: 0 0 5px #ff69b4, 0 0 10px #ff69b4, 0 0 20px #ff69b4, 0 0 30px #ff69b4;
+}
+
+/* SECTION */
+.section-title{
+  padding-left: 10px;
+  margin-bottom: 20px;
+  color: #ff69b4;
+  text-align: center;
+}
+
+/* CARD DESIGN */
+.card{
+  background: rgba(26, 0, 26, 0.7);
+  border: 1px solid  #ff69b4;
+  border-radius: 15px;
+  box-shadow: 0 0 15px rgba(255, 105, 180, 0.5); /* Pink neon shadow */
+  max-width: 500px;
+  margin: 10px auto;
+}
+
+/* TEXT INSIDE CARD SHOULD BE WHITE */
+.card,
+.card p,
+.card h1,
+.card h2,
+.card h3,
+.card h4,
+.card h5,
+.card h6,
+.card span,
+.card strong,
+.card li{
+  color: #ffffff !important;
+}
+
+/* FOOTER */
+footer{
+  background: #0d001a;
+  border-top: 1px solid  #ff69b4;
+  color: #ffb6c1;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Center rows in sections */
+.section .row,
+#projects .row,
+#skills .row {
+  justify-content: center;
+}
+</style>
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg navbar-dark">
+  <div class="container">
+    <a class="navbar-brand glow" href="#">&lt;MHEL ROSE&gt;</a>
+
+    <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#nav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="nav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="#personal">Personal</a></li>
+        <li class="nav-item"><a class="nav-link" href="#objective">Objective</a></li>
+        <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+        <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- HEADER -->
+<header>
+  <h1>Mhel Rose S. Pastrana <span class="glow"></span></h1>
+  <p>BS Information Technology | 3rd Year</p>
+</header>
+
+<div class="container my-5">
+
+<!-- PERSONAL INFO -->
+<section id="personal" class="mb-5">
+  <h3 class="section-title">Personal Information</h3>
+  <div class="card p-4">
+    <p><strong>Name:</strong> Mhel Rose S. Pastrana</p>
+    <p><strong>Course:</strong> BS Information Technology</p>
+    <p><strong>Year Level:</strong> 3rd Year</p>
+  </div>
+</section>
+
+<!-- OBJECTIVE -->
+<section id="objective" class="mb-5">
+  <h3 class="section-title">🎯 Career Objective</h3>
+  <div class="card p-4">
+    <p>
+      A dedicated and passionate IT student aiming to enhance my skills in programming
+      and technology while developing innovative systems that help improve efficiency
+      and solve real-world problems.
+    </p>
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills" class="mb-5">
+  <h3 class="section-title">🛠 Skills</h3>
+  <div class="row g-3">
+    <div class="col-md-3"><div class="card p-3 text-center">HTML</div></div>
+    <div class="col-md-3"><div class="card p-3 text-center">CSS</div></div>
+    <div class="col-md-3"><div class="card p-3 text-center">C++</div></div>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects" class="mb-5">
+  <h3 class="section-title">📂 Projects</h3>
+  <div class="row g-4 justify-content-center">
+    <div class="col-md-6">
+      <div class="card p-3">
+        <h5 class="glow">Personal Portfolio Website</h5>
+        <p>Designed and developed a responsive personal portfolio using HTML, CSS, and Bootstrap.</p>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div class="card p-3">
+        <h5 class="glow">Student Information Management System</h5>
+        <p>A system created to manage student records efficiently and accurately.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+  <h3 class="section-title">📞 Contact Information</h3>
+  <div class="card p-4">
+    <p><strong>✉️ Email:</strong> pastranamhelrose123@gmail.com</p>
+    <p><strong>📱 Phone:</strong> 0948 638 7901</p>
+    <p><strong>📍 Address:</strong> Kangkaibe, Bantayan, Cebu</p>
+  </div>
+</section>
+
+</div>
+
+<!-- FOOTER -->
+<footer>
+  <p>© 2026 Mhel Rose S. Pastrana | Portfolio</p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
